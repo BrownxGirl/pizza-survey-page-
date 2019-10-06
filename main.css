@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(104, 104, 224);
+    font-family: "Raleway", Helvetica, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1082342/pexels-photo-1082342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .color {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+  }
+  #title {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+  }
+  #description {
+    background-color: black;
+    opacity: 0.8;
+    width: 40%;
+    color: azure;
+    font-size: 22px;
+    padding: 15px;
+  }
+  
+  form {
+    background-color: whitesmoke;
+    opacity: 0.94;
+    width: 60%;
+    padding: 15px;
+    position: relative;
+    left: 16%;
+    bottom: 20px;
+    border-radius: 50px;
+  }
+  .gen-info {
+    display: flex;
+    flex-direction: column;
+  }
+  #age-label {
+    margin-right: 11.5%;
+  }
+  #btn {
+    position: relative;
+    left: 9px;
+  }
+  #btn2 {
+    position: relative;
+    left: 4px;
+  }
+  
+  ul #improve-choices {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    padding: 10px;
+  }
+  .rating {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 25px;
+  }
+  
+  #dropdown.dropdown {
+    width: 91px;
+    height: 40px;
+    
+  }
+  #most-like.dropdown {
+    width: 91px;
+    height: 40px;
+  }
+  #rating {
+    position: relative;
+    right: 10%;
+    top: 46px;
+  }
+  .rating {
+    position: relative;
+  }
+  
+  #rlist {
+    position: relative;
+    right: 10%;
+    top: 10px;
+  }
+  .radio {
+    padding: 5px;
+  }
+  #rec {
+    display: flex;
+    position: relative;
+    bottom: 12px;
+    left: 6%;
+  }
+  #currentposition{
+    display:flex;
+    position: relative;
+   top:10px;
+    left: 13%;
+   
+    
+  }
+  
+  .improve {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    top: 7px;
+  }
+  #improve-choices {
+    position: relative;
+    bottom: 15px;
+  }
+  
+  .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  #comment {
+    flex: 2;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+  }
+  
+  #comsec {
+    display: flex;
+  }
+  
+  #comments {
+    flex: 3;
+    width: 10%;
+  }
+  #submit {
+    display: flex;
+    background-color: transparent;
+    border-radius: 4px;
+    color: black;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 1px black solid;
+    position: relative;
+    top: 35px;
+    left: 40%;
+  }
+  
+  #submit:hover {
+    background-color: black;
+    color: white;
+  
+    font-size: 1.2em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 650px) {
+    #dropdown.dropdown {
+      width: 75px;
+      height: 40px;
+      position: relative;
+      top: 20px;
+      right: 22px;
+    }
+    form {
+      width: 72%;
+    }
+    .input-field {
+      padding: 10px;
+    }
+  
+    #most-like.dropdown {
+      width: 91px;
+      height: 40px;
+      position: relative;
+      top: 20px;
+    }
+    #submit {
+      position: relative;
+      top: 35px;
+      right: 55px;
+    }
+  
+    #comment {
+      flex: 2;
+      position: relative;
+      bottom: 10px;
+      left: -5px;
+    }
+    #title {
+    background-color: azure;
+    opacity: 0.6;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    top: 25px;
+  }
+    #description {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    color: azure;
+    font-size: 22px;
+    padding: 10px;
+  }
+  }
+  
+  @media (max-width: 325px) {
+    #dropdown.dropdown {
+      width: 75px;
+      height: 40px;
+      position: relative;
+      top: 20px;
+      right: 15px;
+    }
+  }
+  

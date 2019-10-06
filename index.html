@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Survey Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <head>
+                <meta charset='utf-8'>
+                <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+                <title>Page Title</title>
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+              </head>
+              
+              <body>
+                <div class="color">
+                  <h1 id="title">Manna's Pizza Cove Survey</h1>
+                </div>
+                <div class="color">
+                  <p id="description">How Was Your Eatalian Experience?</p>
+                </div>
+                <form id="survey-form">
+                  <div class="gen-info">
+                    <label id="name-label" for="name">Name:  <input autofocus type="text" name="name-label" id="name" class="input-field" placeholder="Enter your name" required></label>
+                    <label id="email-label" for="email">Email: <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email"></label>
+                    <label id="number-label" for="age">Age: <input type="number" name="age" id="number" min="10" max="90" class="input-field" placeholder="Age"></label>
+                  </div>
+                 
+                  
+                   <div id="currentposition">
+                    <label for="currentPos">How was your eatalian experience?</label>
+                    <select id="dropdown" name="currentPos" class="dropdown">         
+                                 <option disabled selected value>Select</option>
+                                  <option value="Amazing">Amazing!</option>
+                                  <option value="Okay">Okay.</option>
+                                  <option value="Not the best">Not the best eatalian experience so far.</option>
+                                  <option value="Awful">Awful. I am never returning.</option>
+                                  <option value="other">Other</option>
+                                </select>
+                  </div>
+                 
+                  <div class="rating">
+                    <label id="rating" for="rating">Will you be returning soon?</label>
+                    <br>
+                    <ul id="rlist" style="list-style: none;">
+                      <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+                      <li class="radio" id="btn"><label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+                      <li class="radio" id="btn2"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+                    </ul>
+                  </div>
+                  <div id="rec">
+                    <label for="best-item">What meal would you recomend to a friend?</label>
+                    <select id="most-like" name="mostLike" class="dropdown">
+                                       <option disabled selected value>Select</option>
+                                          <option value="Budget Pasta">Budget Pasta</option>
+                                          <option value="Deluxe Pizza">Deluxe Pizzaa</option>
+                                          <option value="Meat Master">Meat master mania pizzas</option>
+                                          <option value="Rustic Romance">Rustic Romance Rolls</option>
+                                          <option value="other">Other</option>
+                                        </select>
+              
+                  </div>
+                  <div class="improve">
+                    <label id="improve">What to improve so you can have a better experience on your next visit with us?</label>
+                    <ul id="improve-choices" style="list-style: none;">
+                      <li class="checkbox" id="check1"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Food</label></li>
+                      <li class="checkbox" id="check2"><input name="prefer" value="2" type="checkbox" class="userRatings">Service</li>
+                      <li class="checkbox" id="check3"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Atmosphere</label></li>
+                      <li class="checkbox" id="check4"><label><input name="prefer" value="4" type="checkbox" class="userRatings">other(please specify in comment section)</label></li>
+              
+                    </ul>
+                  </div>
+              
+                  <div id="comsec"><label for="comment" id="comment">Any Comments or Suggestions?</label> <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea></div>
+                  <button id="submit" type="submit">Submit</button>
+                  <br>
+                  <br>
+                  <br>
+                </form>
+              
+                <footer>&copy;2019 Created by:Nomanna</footer>
+              
+              </body>
+              
+              </html>
+    
